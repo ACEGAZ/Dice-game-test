@@ -1,49 +1,44 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width-device-width, intial-scale=1.0">
-    <meta name="description" content="resturant booking website, hastings">
-    <meta name="keywords" content="couch co-op resturant, hastings, east sussex">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Couch Co-op</title>
+    <meta name="viewport"
+          content="width=device-width,
+                   initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Dice Game</title>
 </head>
+<body>
+  <section id="game">
+    <h1>Dice Game</h1>
 
-<Body>
-    <header>
-        <div id="left-header">
-            <h1>Couch</h1>
-        </div>
-        
-        <div id="center-header">
-        </div>
+    <div id="player-wrapper">
+    <div id="player">Player</div>
+    <div id="computer">Computer</div>
+  </div>
 
-        <div id="right-header">
-            <h1>Co-op</h1>
-        </div>
-       
-        <nav>
-                <ul id="nav">
-                    <li>
-                        <a href="index.html" class="active">Home</a>
-                    </li>
-                    <li>
-                        <a href="gallery.html">Menu & Games </a>
-                    </li>
-                    <li>
-                        <a href="bookings.html">Bookings</a>
-                    </li>
-                </ul>
-        </nav>
+  <br>
 
-    </header>
+  <div id="scores">
+  <div id="player-score">0</div>
+  <div id="computer-score">0</div>
+</div>
 
-    <section id="left-side">
-    </section>
+    <div>Moves Left</div>
+    <div id="moves-left"></div>
 
-    <section>
-    </section>
-    <footer>
-    </footer>
-</Body>
+
+    <div id="dice-wrapper">
+      <button id="player-dice" onclick="playerResult()">Roll</button>
+        <div id="player-result"></div>
+      </div>
+
+   <div id="result"></div>
+
+   <button id="restart"></button>
+
+
+  </section>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
