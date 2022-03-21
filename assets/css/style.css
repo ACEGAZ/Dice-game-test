@@ -44,6 +44,10 @@ button {
       margin-bottom:50px ;
   }
 
+  #dice-wrapper{
+      display: inline-flex;
+  }
+
   #player-result {
       border: 2px solid;
       width: 100px;
@@ -52,5 +56,17 @@ button {
       margin-bottom: 50px;
       font-size: 40px;
       line-height: 240%;
+      margin-right: 50px;
   }
+
+  #computer-result {
+    border: 2px solid;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-size: 40px;
+    line-height: 240%;
+}
+
 
