@@ -18,8 +18,10 @@ function playGame(){
     document.getElementById('result').innerHTML = 'Draw';
    } if (playerScore === 11) {
     document.getElementById('winner-loser').innerHTML = 'You Win The Game';
+    document.getElementById('dice').remove();
    } if (computerScore === 11) {
     document.getElementById('winner-loser').innerHTML = 'You Lose The Game';
+    document.getElementById('dice').remove();
    }
 }
 
