@@ -1,5 +1,6 @@
-let playerScore = 0;
-let computerScore = 0;
+let playerScore = 1;
+let computerScore = 1;
+let x = 10;
 
 
 function playGame(){
@@ -7,16 +8,28 @@ function playGame(){
     let computerRoll = Math.floor(Math.random() * 6) + 1;
    document.getElementById('player-result').innerHTML = playerRoll 
    document.getElementById('computer-result').innerHTML = computerRoll
-   console.log([playerRoll, computerRoll])
    if (playerRoll > computerRoll) {
        document.getElementById('result').innerHTML = 'You Win';
+       document.getElementById('player-score').innerHTML = playerScore++;
    } else if (playerRoll < computerRoll) { 
     document.getElementById('result').innerHTML = 'You Lose';
+    document.getElementById('computer-score').innerHTML = computerScore++;
    } else if (playerRoll === computerRoll) {
     document.getElementById('result').innerHTML = 'Draw';
+   } if (playerScore === 11) {
+    document.getElementById('winner-loser').innerHTML = 'You Win The Game';
+   } if (computerScore === 11) {
+    document.getElementById('winner-loser').innerHTML = 'You Lose The Game';
    }
-    
 }
+
+
+
+
+     
+     
+    
+
 
 
 
