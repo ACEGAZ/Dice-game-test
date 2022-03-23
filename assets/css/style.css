@@ -1,11 +1,19 @@
 *{
     text-align: center;
-    color: red;
+    color: rgb(5, 50, 71);
     font-size: 40px;
 }
 
 body {
-    background-color: black;
+    
+background: linear-gradient(0.25turn, #017483, #ebf8e1, #7dd7dd);
+
+}
+
+#winner-loser{
+    color: rgba(133, 7, 133, 0.603);
+    font-size: 50px;
+    font-weight: 300;
 }
 
 #player-wrapper{
@@ -32,7 +40,7 @@ body {
 }
 
 button {
-    background-color: rgb(211, 14, 14);
+    background-color: rgba(133, 7, 133, 0.247);
     border-radius: 4px;
     border: none;
     color: rgb(255, 255, 255);
