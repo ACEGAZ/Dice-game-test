@@ -16,14 +16,18 @@ background: linear-gradient(0.25turn, #017483, #ebf8e1, #7dd7dd);
     font-weight: 300;
 }
 
+h1 {
+    margin-right: 10px;
+}
+
 #player-wrapper{
     display: inline-flex;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
 }
 
 #player {
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
 #scores {
@@ -31,7 +35,7 @@ background: linear-gradient(0.25turn, #017483, #ebf8e1, #7dd7dd);
 }
 
 #player-score {
-    margin-right:  150px;
+    margin-right:  100px;
     margin-bottom: 50px;
 }
 
