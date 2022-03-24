@@ -22,22 +22,22 @@
   <br>
 
   <div id="scores">
-  <div id="player-score">0</div>
+  <div id="player-score" class="end-game">0</div>
   <div id="computer-score">0</div>
 </div>
 
 
-<div>
-    <button id="dice" onclick="playGame()">Roll</button>
+<div id="dice-wrapper">
+    <button id="dice" class="end-game" onclick="playGame()">Roll</button>
   </div>
 
-    <div id="dice-wrapper">
+    <div id="result-wrapper">
         <div id="player-result"></div>
         <div id="computer-result"></div>
 
       </div>
 
-   <div id="result"></div>
+   <div id="win-lose-draw"></div>
 
    <button id="restart" onclick="restartGame()">Restart</button>
 
