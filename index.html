@@ -8,8 +8,24 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Dice Game</title>
 </head>
+
 <body>
-  <section id="game">
+
+  <section id="start-menu">
+  <div id="d6-game-start">
+    <button onclick=" showhideD6Game()">D6</button>
+  </div> 
+
+  <div id="d10-game-start">
+    <button onclick="showhideD10Game()">D10</button>
+  </div>
+
+  <div  id="d20-game-start">
+    <button onclick="showhideD20Game()">D20</button>
+  </div>
+</section>
+
+  <section id="d6-game">
     <h1>Dice Game</h1>
 
     <div id="player-wrapper">

@@ -3,6 +3,12 @@ let computerScore = 1;
 
 
 
+function showhideD6Game () {
+    document.getElementById("d6-game").style.display = 'block';
+    document.getElementById("start-menu").style.display = 'none';
+  }  
+
+
 function playGame(){
     let playerRoll = Math.floor(Math.random() * 6) + 1;
     let computerRoll = Math.floor(Math.random() * 6) + 1;
