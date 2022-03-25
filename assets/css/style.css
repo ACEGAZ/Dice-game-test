@@ -54,7 +54,7 @@ button {
     font-size: 30px;
   }
 
-  #dice {
+  #roll-button {
       margin-bottom:30px ;
   }
 
@@ -62,25 +62,7 @@ button {
       display: inline-flex;
   }
 
-  #player-result {
-      border: 2px solid;
+  img{
       width: 100px;
       height: 100px;
-      margin: 0 auto;
-      margin-bottom: 30px;
-      font-size: 40px;
-      line-height: 240%;
-      margin-right: 50px;
   }
-
-  #computer-result {
-    border: 2px solid;
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    font-size: 40px;
-    line-height: 240%;
-}
-
-
