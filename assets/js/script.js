@@ -14,12 +14,12 @@ function playD6Game(){
     let computerRoll = Math.floor(Math.random() * 6) + 1;
       
     let diceImageArray = [
-                          img1 = 'assets/images/dice1.png', 
-                          img2 = 'assets/images/dice2.png', 
-                          img3 = 'assets/images/dice3.png', 
-                          img4 = 'assets/images/dice4.png',
-                          img5 = 'assets/images/dice5.png',
-                          img6 = 'assets/images/dice6.png']                    
+                          img1 = 'assets/images/d6(1).png', 
+                          img2 = 'assets/images/d6(2).png', 
+                          img3 = 'assets/images/d6(3).png', 
+                          img4 = 'assets/images/d6(4).png',
+                          img5 = 'assets/images/d6(5).png',
+                          img6 = 'assets/images/d6(6).png']                    
 
 
    if (playerRoll === 1) {
@@ -90,16 +90,16 @@ function showhideD10Game() {
     let computerRoll = Math.floor(Math.random() * 10) + 1;
       
     let diceImageArray = [
-                          img1 = 'assets/images/d10diceface1.png', 
-                          img2 = 'assets/images/d10diceface2.png', 
-                          img3 = 'assets/images/d10diceface3.png', 
-                          img4 = 'assets/images/d10diceface4.png',
-                          img5 = 'assets/images/d10diceface5.png',
-                          img6 = 'assets/images/d10diceface6.png', 
-                          img7 = 'assets/images/d10diceface7.png',
-                          img8 = 'assets/images/d10diceface8.png',
-                          img9 = 'assets/images/d10diceface9.png',
-                          img10 = 'assets/images/d10diceface10.png']                  
+                          img1 = 'assets/images/d10(1).png', 
+                          img2 = 'assets/images/d10(2).png', 
+                          img3 = 'assets/images/d10(3).png', 
+                          img4 = 'assets/images/d10(4).png',
+                          img5 = 'assets/images/d10(5).png',
+                          img6 = 'assets/images/d10(6).png', 
+                          img7 = 'assets/images/d10(7).png',
+                          img8 = 'assets/images/d10(8).png',
+                          img9 = 'assets/images/d10(9).png',
+                          img10 = 'assets/images/d10(10).png']                  
 
 
    if (playerRoll === 1) {
