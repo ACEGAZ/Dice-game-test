@@ -235,26 +235,26 @@ function showhideD10Game() {
     document.getElementById('d20-dice-image-one').src = diceImageArray[8]
    } if (playerRoll === 10) {
     document.getElementById('d20-dice-image-one').src = diceImageArray[9]
-   } if (computerRoll === 11) {
-    document.getElementById('d20-dice-image-two').src = diceImageArray[10]
-   } if (computerRoll === 12) {
-    document.getElementById('d20-dice-image-two').src = diceImageArray[11]
-   } if (computerRoll === 13) {
-    document.getElementById('d20-dice-image-two').src = diceImageArray[12]
-   } if (computerRoll === 14) {
-    document.getElementById('d20-dice-image-two').src = diceImageArray[13]
-   } if (computerRoll === 15) {
-    document.getElementById('d20-dice-image-two').src = diceImageArray[14]
-   } if (computerRoll === 16) {
-    document.getElementById('d20-dice-image-two').src = diceImageArray[15]
-   } if (computerRoll === 17) {
-    document.getElementById('d20-dice-image-two').src = diceImageArray[16]
-   } if (computerRoll === 18) {
-    document.getElementById('d20-dice-image-two').src = diceImageArray[17]
-   } if (computerRoll === 19) {
-    document.getElementById('d20-dice-image-two').src = diceImageArray[18]
-   }if (computerRoll === 20) {
-    document.getElementById('d20-dice-image-two').src = diceImageArray[19]
+   } if (playerRoll === 11) {
+    document.getElementById('d20-dice-image-one').src = diceImageArray[10]
+   } if (playerRoll === 12) {
+    document.getElementById('d20-dice-image-one').src = diceImageArray[11]
+   } if (playerRoll === 13) {
+    document.getElementById('d20-dice-image-one').src = diceImageArray[12]
+   } if (playerRoll === 14) {
+    document.getElementById('d20-dice-image-one').src = diceImageArray[13]
+   } if (playerRoll === 15) {
+    document.getElementById('d20-dice-image-one').src = diceImageArray[14]
+   } if (playerRoll === 16) {
+    document.getElementById('d20-dice-image-one').src = diceImageArray[15]
+   } if (playerRoll === 17) {
+    document.getElementById('d20-dice-image-one').src = diceImageArray[16]
+   } if (playerRoll === 18) {
+    document.getElementById('d20-dice-image-one').src = diceImageArray[17]
+   } if (playerRoll === 19) {
+    document.getElementById('d20-dice-image-one').src = diceImageArray[18]
+   }if (playerRoll === 20) {
+    document.getElementById('d20-dice-image-one').src = diceImageArray[19]
    } 
 
    if (computerRoll === 1) {
