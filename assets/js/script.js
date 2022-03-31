@@ -1,3 +1,4 @@
+//player and computer scores//
 let playerScore = 1;
 let computerScore = 1;
 
@@ -9,6 +10,8 @@ function showhideD6Game () {
 } 
 
 //play d6 game//
+
+//show 6 sided dice game and hide start menu//
 function playD6Game(){
     let playerRoll = Math.floor(Math.random() * 6) + 1;
     let computerRoll = Math.floor(Math.random() * 6) + 1;
@@ -22,7 +25,7 @@ function playD6Game(){
                           img5 = 'assets/images/d6(5).png',
                           img6 = 'assets/images/d6(6).png']                    
 
-//display d6 images to divs//
+//display d6 images to player-result div//
      if (playerRoll === 1) {
     document.getElementById('d6-dice-image-one').src = diceImageArray[0]
    } if (playerRoll === 2) {
@@ -36,6 +39,7 @@ function playD6Game(){
    } if (playerRoll === 6) {
     document.getElementById('d6-dice-image-one').src = diceImageArray[5]
 
+  //display d6 images to computer-result div//  
    } if (computerRoll === 1) {
     document.getElementById('d6-dice-image-two').src = diceImageArray[0]
    } if (computerRoll === 2) {
@@ -81,6 +85,8 @@ function playD6Game(){
 }
 
 //10 sided dice game//
+
+//show 10 sided dice game and hide start menu//
 function showhideD10Game() {
     document.getElementById('d10-game').style.display = 'block';
     document.getElementById('start-menu').style.display = 'none';
@@ -104,9 +110,9 @@ function showhideD10Game() {
                           img9 = 'assets/images/d10(9).png',
                           img10 = 'assets/images/d10(10).png']                  
 
-//display d10 images to divs//
+//display d10 images to player-result div//
      if (playerRoll === 1) {
-       document.getElementById('d10-dice-image-one').src = diceImageArray[0]
+    document.getElementById('d10-dice-image-one').src = diceImageArray[0]
    } if (playerRoll === 2) {
     document.getElementById('d10-dice-image-one').src = diceImageArray[1]
    } if (playerRoll === 3) {
@@ -127,7 +133,7 @@ function showhideD10Game() {
     document.getElementById('d10-dice-image-one').src = diceImageArray[9]
    
 
-
+//display d10 images to computer-result div//
    } if (computerRoll === 1) {
     document.getElementById('d10-dice-image-two').src = diceImageArray[0]
    } if (computerRoll === 2) {
@@ -181,6 +187,8 @@ function showhideD10Game() {
 }
 
 //20 sided dice game//
+
+//show 20 sided dice game and hide start menu//
   function showhideD20Game() {
     document.getElementById('d20-game').style.display = 'block';
     document.getElementById('start-menu').style.display = 'none';
@@ -214,7 +222,7 @@ function showhideD10Game() {
                           img19 = 'assets/images/d20(19).png',
                           img20 = 'assets/images/d20(20).png']                  
 
-//display d20 images to divs//
+//display d20 images to player-result div//
      if (playerRoll === 1) {
        document.getElementById('d20-dice-image-one').src = diceImageArray[0]
    } if (playerRoll === 2) {
@@ -257,6 +265,7 @@ function showhideD10Game() {
     document.getElementById('d20-dice-image-one').src = diceImageArray[19]
    } 
 
+  //display d20 images to computer-result div// 
    if (computerRoll === 1) {
    document.getElementById('d20-dice-image-two').src = diceImageArray[0]
    } if (computerRoll === 2) {
